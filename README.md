@@ -12,7 +12,7 @@ cd spring-petclinic
 java -jar target/*.jar
 ```
 ## Terraform Provisioning Lifecycle
-This project will create a VCP with Internet Gateway, subnets accross 3 AZs: one public subnet and one one private subnet with respective ec2 vm's.
+This project will create a VCP with Internet Gateway, subnets accross 2 AZs: one public subnet and one one private subnet with respective ec2 vm's.
 An SSH key pair is dynamically generated as well, and the private key is copied over to the public subnet host.
 
 The ec2 instance in the public subnet is assigned a security group with access from the the intenret via port 22 (for ssh), Jenkins(8080).
