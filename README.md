@@ -25,5 +25,14 @@ Both security groups are dynamically created in the network module.
 terraform init
 terraform plan
 terraform apply --auto-approve=true
+
+To connect to an Public instance use:
+
+Connect -> EC2 Instance Connect on portal
+
+To connect to Private Instance,
+From public instance, do ssh
+ssh -i /home/ec2-user/dev-key.pem ec2-user@{Private-IP}
+
 terraform destroy
 ```

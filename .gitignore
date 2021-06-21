@@ -12,4 +12,4 @@ target/*
 _site/
 .terraform.lock.hcl
 .terraform/
-terraform/terraform.tfstate.*
+terraform/terraform.tfstate
